@@ -1,18 +1,25 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Resume from './pages/Resume'
+import Contact from './pages/Contact'
+
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-      <div className="bg-white rounded-lg shadow-2xl p-8 max-w-md">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">
-          Tailwind CSS is Working! 🎉
-        </h1>
-        <p className="text-gray-600 mb-6">
-          This is a test to verify Tailwind CSS v3 is properly configured.
-        </p>
-        <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg transition duration-200">
-          Click Me
-        </button>
+    <Router>
+      <div className="min-h-screen">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
-    </div>
+    </Router>
   )
 }
 
