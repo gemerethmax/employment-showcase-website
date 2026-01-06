@@ -2,15 +2,15 @@ import { Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center px-4 pt-24">
       <div className="max-w-4xl text-center">
         {/* Hero Section */}
-        <h1 className="text-6xl md:text-7xl font-bold text-white mb-4">
+        <h1 className="font-hero text-6xl md:text-7xl font-extrabold text-white mb-4 tracking-tight">
           Hi, I'm <span className="text-blue-400">Max Gemereth</span>
         </h1>
 
         <h2 className="text-2xl md:text-3xl text-gray-300 mb-6 font-light">
-          From Real Estate to Full-Stack Development
+          From Real Estate to Software Development
         </h2>
 
         <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -19,7 +19,7 @@ function Home() {
           ownership, discipline, and attention to detail to building software.
         </p>
 
-        <p className="text-md text-gray-500 mb-12">
+        <p className="text-md text-gray-400 mb-12">
           Available for on-site/hybrid roles in Metro Atlanta or remote positions.
         </p>
 
@@ -29,49 +29,86 @@ function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             {/* Full-Stack Engineering */}
-            <div className="bg-slate-900/50 rounded-lg p-4 border border-slate-600 hover:border-blue-500 transition duration-200">
+            <a
+              href="/certificates/fullstack-engineer.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-slate-900/50 rounded-lg p-4 border border-slate-600 hover:border-blue-500 transition duration-200 cursor-pointer block"
+            >
               <div className="flex items-center justify-between mb-2">
                 <h4 className="text-lg font-semibold text-white">Full-Stack Engineer</h4>
                 <span className="text-green-400 text-sm font-medium">✓ Complete</span>
               </div>
               <p className="text-gray-400 text-sm mb-1">150 hours</p>
-              <p className="text-gray-500 text-xs">PERN Stack, Data Structures, Algorithms, Web Security</p>
-            </div>
-
-            {/* ML Specialist (In Progress) */}
-            <div className="bg-slate-900/50 rounded-lg p-4 border border-slate-600 hover:border-blue-500 transition duration-200">
-              <div className="flex items-center justify-between mb-2">
-                <h4 className="text-lg font-semibold text-white">ML Specialist</h4>
-                <span className="text-yellow-400 text-sm font-medium">⟳ In Progress</span>
-              </div>
-              <p className="text-gray-400 text-sm mb-1">95 hours</p>
-              <p className="text-gray-500 text-xs">Statistics, Data Analysis, Machine Learning</p>
-            </div>
+              <p className="text-gray-500 text-xs mb-2">PERN Stack, Data Structures, Algorithms, Web Security</p>
+              <p className="text-blue-400 text-xs font-medium flex items-center gap-1">
+                View Certificate
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </p>
+            </a>
 
             {/* AI/Data Foundations */}
-            <div className="bg-slate-900/50 rounded-lg p-4 border border-slate-600 hover:border-blue-500 transition duration-200">
+            <a
+              href="/certificates/ai-data-foundations.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-slate-900/50 rounded-lg p-4 border border-slate-600 hover:border-blue-500 transition duration-200 cursor-pointer block"
+            >
               <div className="flex items-center justify-between mb-2">
                 <h4 className="text-lg font-semibold text-white">AI & Data Foundations</h4>
                 <span className="text-green-400 text-sm font-medium">✓ Complete</span>
               </div>
               <p className="text-gray-400 text-sm mb-1">39 hours</p>
-              <p className="text-gray-500 text-xs">Programming Foundations, AI Concepts</p>
-            </div>
+              <p className="text-gray-500 text-xs mb-2">Programming Foundations, AI Concepts</p>
+              <p className="text-blue-400 text-xs font-medium flex items-center gap-1">
+                View Certificate
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </p>
+            </a>
 
             {/* Python 3 */}
-            <div className="bg-slate-900/50 rounded-lg p-4 border border-slate-600 hover:border-blue-500 transition duration-200">
+            <a
+              href="/certificates/python3.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-slate-900/50 rounded-lg p-4 border border-slate-600 hover:border-blue-500 transition duration-200 cursor-pointer block"
+            >
               <div className="flex items-center justify-between mb-2">
                 <h4 className="text-lg font-semibold text-white">Python 3</h4>
                 <span className="text-green-400 text-sm font-medium">✓ Complete</span>
               </div>
               <p className="text-gray-400 text-sm mb-1">24 hours</p>
-              <p className="text-gray-500 text-xs">Core Python Programming</p>
+              <p className="text-gray-500 text-xs mb-2">Core Python Programming</p>
+              <p className="text-blue-400 text-xs font-medium flex items-center gap-1">
+                View Certificate
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </p>
+            </a>
+
+            {/* ML Specialist (In Progress) */}
+            <div className="bg-slate-900/50 rounded-lg p-4 border border-slate-600 opacity-60">
+              <div className="flex items-center justify-between mb-2">
+                <h4 className="text-lg font-semibold text-white">ML Specialist</h4>
+                <span className="text-yellow-400 text-sm font-medium">⟳ In Progress</span>
+              </div>
+              <p className="text-gray-400 text-sm mb-1">95 hours</p>
+              <p className="text-gray-500 text-xs mb-2">Statistics, Data Analysis, Machine Learning</p>
+              <div className="w-full bg-slate-700 rounded-full h-2">
+                <div className="bg-blue-500 h-2 rounded-full" style={{width: '67%'}}></div>
+              </div>
+              <p className="text-xs text-gray-400 mt-1 text-right">67% complete</p>
             </div>
           </div>
 
           <div className="text-center pt-4 border-t border-slate-700">
             <p className="text-xl font-semibold text-blue-400">300+ hours of technical training</p>
-            <p className="text-sm text-gray-500 mt-1">+ AI Agents & Generative AI coursework</p>
+            <p className="text-sm text-gray-400 mt-1">with AI Agents & Generative AI coursework</p>
           </div>
         </div>
 
@@ -98,7 +135,7 @@ function Home() {
         </div>
 
         {/* Quick Links */}
-        <div className="mt-12 flex justify-center gap-6">
+        <div className="mt-12 mb-16 flex justify-center gap-6">
           <a
             href="https://www.linkedin.com/in/matthew-gemereth-711193203"
             target="_blank"
