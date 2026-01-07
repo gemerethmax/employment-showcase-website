@@ -13,9 +13,13 @@ function Resume() {
             <span>•</span>
             <a href="https://github.com/gemerethmax" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">GitHub</a>
           </div>
-          <button className="mt-6 bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg transition duration-200">
+          <a
+            href="/Max.Gemereth_Resume.pdf"
+            download
+            className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg transition duration-200"
+          >
             Download PDF
-          </button>
+          </a>
         </div>
 
         {/* Professional Summary */}
@@ -94,7 +98,7 @@ function Resume() {
             <div className="ml-4 mt-2 space-y-3">
               <div>
                 <div className="flex justify-between">
-                  <p className="font-semibold text-blue-400">Full-Stack Engineer Certificate (150 hours)</p>
+                  <a href="/certificates/fullstack-engineer.pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-400 hover:text-blue-300 transition">Full-Stack Engineer Certificate (150 hours)</a>
                   <p className="text-gray-500">2024 – 2025</p>
                 </div>
                 <p className="text-gray-400 text-sm">PERN Stack (PostgreSQL, Express.js, React, Node.js), Data Structures, Algorithms, Web Security</p>
@@ -102,14 +106,14 @@ function Resume() {
 
               <div>
                 <div className="flex justify-between">
-                  <p className="font-semibold text-blue-400">Data & Programming Foundations for AI (39 hours)</p>
+                  <a href="/certificates/ai-data-foundations.pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-400 hover:text-blue-300 transition">Data & Programming Foundations for AI (39 hours)</a>
                   <p className="text-gray-500">2025</p>
                 </div>
               </div>
 
               <div>
                 <div className="flex justify-between">
-                  <p className="font-semibold text-blue-400">Python 3 Certificate (24 hours)</p>
+                  <a href="/certificates/python3.pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-400 hover:text-blue-300 transition">Python 3 Certificate (24 hours)</a>
                   <p className="text-gray-500">2025</p>
                 </div>
               </div>
@@ -127,8 +131,8 @@ function Resume() {
           <div>
             <h3 className="text-lg font-semibold text-white">Additional Coursework</h3>
             <ul className="ml-4 mt-2 text-gray-300 space-y-1">
-              <li>• Building AI Agents | 2024</li>
-              <li>• Generative AI for Everyone | 2024</li>
+              <li>• <a href="/certificates/build_ai_agents.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition">Building AI Agents</a> | 2025</li>
+              <li>• <a href="/certificates/gen_ai.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition">Generative AI for Everyone</a> | 2025</li>
             </ul>
           </div>
         </section>

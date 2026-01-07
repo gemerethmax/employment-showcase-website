@@ -1,127 +1,20 @@
-import { useState } from 'react'
-
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  })
-
-  const [status, setStatus] = useState('')
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // TODO: Add backend email functionality later
-    setStatus('Message sent! (Note: Backend not yet implemented)')
-    console.log('Form data:', formData)
-    // Reset form
-    setFormData({ name: '', email: '', subject: '', message: '' })
-  }
-
   return (
     <div className="min-h-screen bg-slate-900 text-gray-300">
       <div className="max-w-4xl mx-auto px-4 py-16">
         {/* Header */}
-        <h1 className="text-5xl font-bold text-white mb-4">Get In Touch</h1>
-        <div className="w-24 h-1 bg-blue-500 mb-8"></div>
-        <p className="text-xl text-gray-400 mb-12">
+        <div className="text-center">
+          <h1 className="text-5xl font-bold text-white mb-4">Get In Touch</h1>
+          <div className="w-24 h-1 bg-blue-500 mb-8 mx-auto"></div>
+        </div>
+        <p className="text-xl text-gray-400 mb-12 text-center">
           I'm actively seeking opportunities in full-stack development, React, data analysis,
           and AI/ML-adjacent roles. Let's connect!
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Contact Form */}
+        <div className="max-w-2xl mx-auto">
           <div>
-            <h2 className="text-2xl font-bold text-white mb-6">Send a Message</h2>
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label htmlFor="name" className="block text-sm font-semibold text-gray-400 mb-2">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500 transition duration-200"
-                  placeholder="Your name"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-sm font-semibold text-gray-400 mb-2">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500 transition duration-200"
-                  placeholder="your.email@example.com"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="subject" className="block text-sm font-semibold text-gray-400 mb-2">
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500 transition duration-200"
-                  placeholder="What's this about?"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-semibold text-gray-400 mb-2">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows="6"
-                  className="w-full px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500 transition duration-200 resize-none"
-                  placeholder="Tell me about the opportunity or project..."
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-200 shadow-lg hover:shadow-xl"
-              >
-                Send Message
-              </button>
-
-              {status && (
-                <p className="text-center text-green-400 font-semibold mt-4">{status}</p>
-              )}
-            </form>
-          </div>
-
-          {/* Contact Info */}
-          <div>
-            <h2 className="text-2xl font-bold text-white mb-6">Contact Information</h2>
+            <h2 className="text-2xl font-bold text-white mb-6 text-center">Contact Information</h2>
 
             <div className="space-y-6">
               {/* Email */}

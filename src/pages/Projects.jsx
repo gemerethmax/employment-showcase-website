@@ -6,7 +6,7 @@ function Projects() {
         <h1 className="text-5xl font-bold text-white mb-4">Projects</h1>
         <div className="w-24 h-1 bg-blue-500 mb-8"></div>
         <p className="text-xl text-gray-400 mb-12">
-          A showcase of my work demonstrating full-stack development skills.
+          A showcase of my work demonstrating software development skills.
         </p>
 
         {/* Projects Grid */}
@@ -36,89 +36,136 @@ function Projects() {
               </div>
               <div className="flex gap-3">
                 <a
-                  href="https://github.com/gemerethmax"
+                  href="https://github.com/gemerethmax/employment-showcase-website"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 text-center bg-slate-700 hover:bg-slate-600 text-white py-2 px-4 rounded transition duration-200"
                 >
                   View Code
                 </a>
-                <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-200">
+                <a
+                  href="https://maxgemereth.live"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 text-center bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-200"
+                >
                   Live Demo
-                </button>
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Placeholder Project 2 */}
-          <div className="bg-slate-800 rounded-lg border border-slate-700 overflow-hidden opacity-60">
+          {/* Project 2: Happy Hour Swipe */}
+          <div className="bg-slate-800 rounded-lg border border-slate-700 overflow-hidden hover:border-purple-500 transition duration-200">
             <div className="bg-gradient-to-br from-purple-900 to-slate-800 h-48 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-6xl mb-2">🚀</div>
-                <p className="text-white font-semibold">Coming Soon</p>
+                <div className="text-6xl mb-2">🌆</div>
+                <p className="text-white font-semibold">Full-Stack PERN App</p>
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-bold text-white mb-3">Project In Development</h3>
+              <h3 className="text-2xl font-bold text-white mb-3">Happy Hour Swipe</h3>
               <p className="text-gray-400 mb-4 leading-relaxed">
-                Additional projects will be added here as they're completed. Check back soon!
+                Metro-Atlanta happy hour discovery app with Tinder-style swipe interface. Features JWT authentication, PostgreSQL database, real-time filtering, and retro 60s/70s themed UI with neon effects.
               </p>
               <div className="mb-4">
-                <h4 className="text-sm font-semibold text-gray-500 mb-2">Planned Features:</h4>
-                <ul className="text-gray-500 text-sm space-y-1 ml-4">
-                  <li>• Full-stack PERN implementation</li>
-                  <li>• RESTful API design</li>
-                  <li>• User authentication</li>
-                  <li>• Database integration</li>
-                </ul>
+                <h4 className="text-sm font-semibold text-gray-500 mb-2">Tech Stack:</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-purple-900/30 text-purple-400 text-sm rounded-full border border-purple-700">PostgreSQL</span>
+                  <span className="px-3 py-1 bg-purple-900/30 text-purple-400 text-sm rounded-full border border-purple-700">Express</span>
+                  <span className="px-3 py-1 bg-purple-900/30 text-purple-400 text-sm rounded-full border border-purple-700">React</span>
+                  <span className="px-3 py-1 bg-purple-900/30 text-purple-400 text-sm rounded-full border border-purple-700">Node.js</span>
+                  <span className="px-3 py-1 bg-purple-900/30 text-purple-400 text-sm rounded-full border border-purple-700">JWT Auth</span>
+                </div>
+              </div>
+              <div className="flex gap-3">
+                <a
+                  href="https://github.com/gemerethmax/happy-hour"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 text-center bg-slate-700 hover:bg-slate-600 text-white py-2 px-4 rounded transition duration-200"
+                >
+                  View Code
+                </a>
+                <a
+                  href="https://happy-hour-api-561p.onrender.com/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 text-center bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded transition duration-200"
+                >
+                  Live Demo
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Placeholder Project 3 */}
-          <div className="bg-slate-800 rounded-lg border border-slate-700 overflow-hidden opacity-60">
+          {/* Project 3: Life Expectancy and GDP Analysis */}
+          <div className="bg-slate-800 rounded-lg border border-slate-700 overflow-hidden hover:border-green-500 transition duration-200">
             <div className="bg-gradient-to-br from-green-900 to-slate-800 h-48 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-6xl mb-2">🤖</div>
-                <p className="text-white font-semibold">Coming Soon</p>
+                <div className="text-6xl mb-2">📊</div>
+                <p className="text-white font-semibold">Data Analysis Project</p>
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-bold text-white mb-3">AI/ML Project</h3>
+              <h3 className="text-2xl font-bold text-white mb-3">Life Expectancy and GDP Analysis</h3>
               <p className="text-gray-400 mb-4 leading-relaxed">
-                An AI or data-focused project leveraging my machine learning and data analysis skills.
+                Analyzed the relationship between GDP and life expectancy across multiple countries (2000-2015). Developed visualizations uncovering key trends, correlations, and disparities in growth using Python-based data analysis libraries.
               </p>
               <div className="mb-4">
-                <h4 className="text-sm font-semibold text-gray-500 mb-2">Planned Technologies:</h4>
+                <h4 className="text-sm font-semibold text-gray-500 mb-2">Tech Stack:</h4>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-green-900/30 text-green-400 text-sm rounded-full border border-green-700">Python</span>
                   <span className="px-3 py-1 bg-green-900/30 text-green-400 text-sm rounded-full border border-green-700">Pandas</span>
-                  <span className="px-3 py-1 bg-green-900/30 text-green-400 text-sm rounded-full border border-green-700">AI/ML</span>
+                  <span className="px-3 py-1 bg-green-900/30 text-green-400 text-sm rounded-full border border-green-700">Matplotlib</span>
+                  <span className="px-3 py-1 bg-green-900/30 text-green-400 text-sm rounded-full border border-green-700">Seaborn</span>
+                  <span className="px-3 py-1 bg-green-900/30 text-green-400 text-sm rounded-full border border-green-700">Jupyter</span>
                 </div>
+              </div>
+              <div className="flex gap-3">
+                <a
+                  href="https://github.com/gemerethmax/Life-Expectancy-and-GDP-Starter/blob/main/life_expectancy_gdp.ipynb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 text-center bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded transition duration-200"
+                >
+                  View Notebook
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Placeholder Project 4 */}
-          <div className="bg-slate-800 rounded-lg border border-slate-700 overflow-hidden opacity-60">
+          {/* Project 4: NFL Survivor Pool Analysis */}
+          <div className="bg-slate-800 rounded-lg border border-slate-700 overflow-hidden hover:border-orange-500 transition duration-200">
             <div className="bg-gradient-to-br from-orange-900 to-slate-800 h-48 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-6xl mb-2">📊</div>
-                <p className="text-white font-semibold">Coming Soon</p>
+                <div className="text-6xl mb-2">🏈</div>
+                <p className="text-white font-semibold">Predictive Analytics</p>
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-bold text-white mb-3">Data Visualization Project</h3>
+              <h3 className="text-2xl font-bold text-white mb-3">NFL Survivor Pool Analysis</h3>
               <p className="text-gray-400 mb-4 leading-relaxed">
-                A data analysis and visualization project demonstrating data manipulation and presentation skills.
+                Data-driven decision support system for NFL survivor pool optimization. Developed Python-based solution leveraging Vegas odds, predictive modeling, and probabilistic reasoning to optimize contrarian pick strategies.
               </p>
               <div className="mb-4">
-                <h4 className="text-sm font-semibold text-gray-500 mb-2">Planned Features:</h4>
-                <ul className="text-gray-500 text-sm space-y-1 ml-4">
-                  <li>• Data cleaning and preprocessing</li>
-                  <li>• Interactive visualizations</li>
-                  <li>• Statistical analysis</li>
-                </ul>
+                <h4 className="text-sm font-semibold text-gray-500 mb-2">Tech Stack:</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-orange-900/30 text-orange-400 text-sm rounded-full border border-orange-700">Python</span>
+                  <span className="px-3 py-1 bg-orange-900/30 text-orange-400 text-sm rounded-full border border-orange-700">Pandas</span>
+                  <span className="px-3 py-1 bg-orange-900/30 text-orange-400 text-sm rounded-full border border-orange-700">NumPy</span>
+                  <span className="px-3 py-1 bg-orange-900/30 text-orange-400 text-sm rounded-full border border-orange-700">Jupyter</span>
+                </div>
+              </div>
+              <div className="flex gap-3">
+                <a
+                  href="https://github.com/gemerethmax/data_foundations_final_project/blob/main/notebooks/survivor_pool_analysis.ipynb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 text-center bg-orange-600 hover:bg-orange-700 text-white py-2 px-4 rounded transition duration-200"
+                >
+                  View Notebook
+                </a>
               </div>
             </div>
           </div>
