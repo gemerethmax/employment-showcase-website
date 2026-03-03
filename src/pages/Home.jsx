@@ -16,7 +16,9 @@ function Home() {
         <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
           Full-Stack Engineering Intern at AVPS Technologies, building production-style
           web applications with Spring Boot, React, and modern database systems like
-          MySQL and MongoDB. 325+ hours of technical training and growing.
+          MySQL and MongoDB.
+          <br />
+          <span className="block text-center mt-2 text-white font-semibold">325+ hours of technical training and growing.</span>
         </p>
 
         <p className="text-md text-gray-400 mb-12">
