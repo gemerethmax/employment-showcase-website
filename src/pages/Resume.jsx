@@ -49,7 +49,7 @@ function Resume() {
             <div>
               <h3 className="text-lg font-semibold text-blue-400 mb-2">Backend & APIs</h3>
               <ul className="text-gray-300 space-y-1">
-                <li>• Node.js, Express.js</li>
+                <li>• Node.js, Express.js, Spring (Java)</li>
                 <li>• RESTful API Development</li>
                 <li>• OAuth Authentication, Web Security</li>
               </ul>
@@ -116,6 +116,14 @@ function Resume() {
                   <a href="/certificates/python3.pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-400 hover:text-blue-300 transition">Python 3 Certificate (24 hours)</a>
                   <p className="text-gray-500">2025</p>
                 </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between">
+                  <a href="/certificates/rest-apis-spring-java.pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-400 hover:text-blue-300 transition">REST APIs with Spring and Java (20 hours)</a>
+                  <p className="text-gray-500">2025</p>
+                </div>
+                <p className="text-gray-400 text-sm">Spring Framework, Java, RESTful API Development</p>
               </div>
 
               <div>

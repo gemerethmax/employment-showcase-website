@@ -91,6 +91,27 @@ function Home() {
               </p>
             </a>
 
+            {/* REST APIs with Spring and Java */}
+            <a
+              href="/certificates/rest-apis-spring-java.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-slate-900/50 rounded-lg p-4 border border-slate-600 hover:border-blue-500 transition duration-200 cursor-pointer block"
+            >
+              <div className="flex items-center justify-between mb-2">
+                <h4 className="text-lg font-semibold text-white">REST APIs with Spring & Java</h4>
+                <span className="text-green-400 text-sm font-medium">✓ Complete</span>
+              </div>
+              <p className="text-gray-400 text-sm mb-1">20 hours</p>
+              <p className="text-gray-500 text-xs mb-2">Spring Framework, Java, RESTful API Development</p>
+              <p className="text-blue-400 text-xs font-medium flex items-center gap-1">
+                View Certificate
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </p>
+            </a>
+
             {/* ML Specialist (In Progress) */}
             <div className="bg-slate-900/50 rounded-lg p-4 border border-slate-600 opacity-60">
               <div className="flex items-center justify-between mb-2">
@@ -107,7 +128,7 @@ function Home() {
           </div>
 
           <div className="text-center pt-4 border-t border-slate-700">
-            <p className="text-xl font-semibold text-blue-400">300+ hours of technical training</p>
+            <p className="text-xl font-semibold text-blue-400">325+ hours of technical training</p>
             <p className="text-sm text-gray-400 mt-1">with AI Agents & Generative AI coursework</p>
           </div>
         </div>

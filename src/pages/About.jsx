@@ -20,9 +20,10 @@ function About() {
           <h2 className="text-3xl font-bold text-white mb-6">Technical Background</h2>
           <div className="bg-slate-800 rounded-lg p-6 border border-slate-700">
             <p className="text-gray-300 leading-relaxed mb-4">
-              I've completed five technical certifications, including a <strong className="text-white">150-hour
+              I've completed six technical certifications, including a <strong className="text-white">150-hour
               Full-Stack Engineering certification</strong>, <strong className="text-white">Data & Programming
               Foundations for AI</strong> (39 hours), <strong className="text-white">Python 3</strong> (24 hours),
+              <strong className="text-white"> REST APIs with Spring and Java</strong> (20 hours),
               <strong className="text-white"> Building AI Agents</strong>, and <strong className="text-white">Generative
               AI for Everyone</strong>. I'm currently completing a <strong className="text-white">95-hour Data Scientist:
               Machine Learning Specialist certification</strong> focused on statistics, data analysis, and machine
