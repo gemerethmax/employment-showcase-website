@@ -10,13 +10,13 @@ function Home() {
         </h1>
 
         <h2 className="text-2xl md:text-3xl text-gray-300 mb-6 font-light">
-          From Real Estate to Software Development
+          Full-Stack Engineer Intern | Spring Boot Microservices | React
         </h2>
 
         <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Junior Full-Stack Developer with a foundation in AI, data, and the PERN stack.
-          After 5 years managing $15M+ in real estate transactions, I'm applying the same
-          ownership, discipline, and attention to detail to building software.
+          Full-Stack Engineering Intern at AVPS Technologies, building production-style
+          web applications with Spring Boot, React, and modern database systems like
+          MySQL and MongoDB. 325+ hours of technical training and growing.
         </p>
 
         <p className="text-md text-gray-400 mb-12">

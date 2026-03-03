@@ -5,7 +5,7 @@ function Resume() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-white mb-2">Max Gemereth</h1>
-          <p className="text-xl text-gray-400 mb-4">Junior Full-Stack Developer</p>
+          <p className="text-xl text-gray-400 mb-4">Full-Stack Engineer Intern | Spring Boot Microservices | React</p>
           <div className="flex justify-center gap-4 text-sm text-gray-400">
             <a href="mailto:gemereth.max@gmail.com" className="hover:text-blue-400">gemereth.max@gmail.com</a>
             <span>•</span>
@@ -26,11 +26,12 @@ function Resume() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">Professional Summary</h2>
           <p className="text-gray-300 leading-relaxed">
-            Junior Full-Stack Developer with a foundation in AI, data programming, and the PERN stack. Transitioning from 5 years
-            as a licensed real estate agent, where I closed 50+ transactions totaling $15M+ in sales volume. Currently completing
-            a 95-hour Data Scientist: Machine Learning Specialist certification. Proven track record of ownership, discipline, and
-            managing multiple high-stakes projects. Seeking opportunities to apply technical skills and business acumen to build
-            impactful, data-driven software solutions.
+            Full-Stack Engineering Intern at AVPS Technologies with hands-on experience designing and building production-style
+            web applications using Spring Boot, React, and modern database systems including MySQL and MongoDB. Recently developed
+            a full-stack vehicle rental management platform featuring a layered Spring Boot REST API, React frontend, dual database
+            support, and Docker containerization. Backed by 325+ hours of technical certifications spanning full-stack engineering,
+            Java/Spring, Python, and AI. Seeking a full-time Junior Full-Stack Engineer role contributing to backend-heavy web
+            applications, scalable APIs, and user-focused products.
           </p>
         </section>
 
@@ -41,7 +42,7 @@ function Resume() {
             <div>
               <h3 className="text-lg font-semibold text-blue-400 mb-2">Languages & Frontend</h3>
               <ul className="text-gray-300 space-y-1">
-                <li>• JavaScript (ES6+), Python 3, HTML5, CSS3, JSX</li>
+                <li>• Java, JavaScript (ES6+), Python 3, HTML5, CSS3, JSX</li>
                 <li>• React, Redux, TailwindCSS</li>
                 <li>• Responsive Design, Modern Development Workflows</li>
               </ul>
@@ -49,16 +50,16 @@ function Resume() {
             <div>
               <h3 className="text-lg font-semibold text-blue-400 mb-2">Backend & APIs</h3>
               <ul className="text-gray-300 space-y-1">
-                <li>• Node.js, Express.js, Spring (Java)</li>
-                <li>• RESTful API Development</li>
-                <li>• OAuth Authentication, Web Security</li>
+                <li>• Spring Boot, Node.js, Express.js</li>
+                <li>• RESTful API Development, JDBC</li>
+                <li>• OAuth Authentication, Web Security, CORS</li>
               </ul>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-blue-400 mb-2">Database</h3>
               <ul className="text-gray-300 space-y-1">
-                <li>• PostgreSQL, SQL</li>
-                <li>• Database Design & Queries</li>
+                <li>• PostgreSQL, MySQL, MongoDB</li>
+                <li>• SQL, Database Schema Design & Queries</li>
               </ul>
             </div>
             <div>
@@ -81,9 +82,9 @@ function Resume() {
             <div>
               <h3 className="text-lg font-semibold text-blue-400 mb-2">Tools & Practices</h3>
               <ul className="text-gray-300 space-y-1">
-                <li>• Git & GitHub, npm</li>
-                <li>• Iterative Debugging</li>
-                <li>• Clean, Maintainable Code</li>
+                <li>• Git & GitHub, npm, Maven</li>
+                <li>• Docker, Containerization</li>
+                <li>• Iterative Debugging, Clean Architecture</li>
               </ul>
             </div>
           </div>
@@ -121,7 +122,7 @@ function Resume() {
               <div>
                 <div className="flex justify-between">
                   <a href="/certificates/rest-apis-spring-java.pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-400 hover:text-blue-300 transition">REST APIs with Spring and Java (20 hours)</a>
-                  <p className="text-gray-500">2025</p>
+                  <p className="text-gray-500">2026</p>
                 </div>
                 <p className="text-gray-400 text-sm">Spring Framework, Java, RESTful API Development</p>
               </div>
@@ -149,6 +150,25 @@ function Resume() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">Professional Experience</h2>
 
+          <div className="mb-8">
+            <div className="flex justify-between items-start mb-2">
+              <div>
+                <h3 className="text-lg font-semibold text-white">Full-Stack Engineering Intern</h3>
+                <p className="text-blue-400">AVPS Technologies</p>
+              </div>
+              <p className="text-gray-500">2026 – Present</p>
+            </div>
+            <ul className="ml-4 text-gray-300 space-y-2">
+              <li>• Designed and built a full-stack vehicle rental management platform with a Spring Boot REST API backend and React frontend</li>
+              <li>• Architected a layered backend system (Controller → Service → DAO) with dual database support for MongoDB and MySQL</li>
+              <li>• Implemented customer and vehicle inventory CRUD operations, a rule-based product eligibility engine, tiered loyalty rewards, and an employee discount module</li>
+              <li>• Built DTOs, enums, and an inheritance-based entity model with clean separation of concerns</li>
+              <li>• Wrote raw SQL and MongoDB queries and configured JDBC database connectivity</li>
+              <li>• Containerized the application with Docker and configured CORS for frontend-backend integration</li>
+              <li>• Developed the React frontend using JavaScript/JSX and Tailwind CSS</li>
+            </ul>
+          </div>
+
           <div>
             <div className="flex justify-between items-start mb-2">
               <div>
@@ -164,7 +184,6 @@ function Resume() {
               <li>• Negotiated contracts and coordinated cross-functional teams including lenders, attorneys, and inspectors</li>
               <li>• Maintained meticulous attention to detail across hundreds of legal documents</li>
               <li>• Developed marketing strategies and client communication systems to scale business operations</li>
-              <li>• Demonstrated consistent self-motivation and ownership in commission-based environment</li>
             </ul>
           </div>
         </section>

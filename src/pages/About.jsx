@@ -9,9 +9,9 @@ function About() {
         {/* Introduction */}
         <section className="mb-12">
           <p className="text-xl text-gray-300 leading-relaxed mb-6">
-            I'm transitioning into tech with a strong foundation in software engineering,
-            data, and applied AI—bringing a disciplined, self-directed approach to learning
-            and problem-solving.
+            I'm a Full-Stack Engineering Intern building production-grade web applications
+            with Spring Boot, React, and modern database systems—focused on clean architecture
+            and scalable, maintainable code.
           </p>
         </section>
 
@@ -20,26 +20,55 @@ function About() {
           <h2 className="text-3xl font-bold text-white mb-6">Technical Background</h2>
           <div className="bg-slate-800 rounded-lg p-6 border border-slate-700">
             <p className="text-gray-300 leading-relaxed mb-4">
-              I've completed six technical certifications, including a <strong className="text-white">150-hour
-              Full-Stack Engineering certification</strong>, <strong className="text-white">Data & Programming
-              Foundations for AI</strong> (39 hours), <strong className="text-white">Python 3</strong> (24 hours),
-              <strong className="text-white"> REST APIs with Spring and Java</strong> (20 hours),
-              <strong className="text-white"> Building AI Agents</strong>, and <strong className="text-white">Generative
-              AI for Everyone</strong>. I'm currently completing a <strong className="text-white">95-hour Data Scientist:
-              Machine Learning Specialist certification</strong> focused on statistics, data analysis, and machine
-              learning fundamentals.
+              I'm a <strong className="text-white">Full-Stack Engineering Intern at AVPS Technologies</strong>, where I design and build
+              production-style web applications using Spring Boot, React, and modern database systems.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
-              I work across <strong className="text-blue-400">HTML, CSS, JavaScript, Python, JSX, React, Redux,
-              and TailwindCSS</strong>, with hands-on experience in the <strong className="text-blue-400">PERN stack</strong>
-              (PostgreSQL, Express.js, React, Node.js). I've built RESTful APIs, implemented OAuth authentication,
-              written SQL queries, and managed code with Git/GitHub and npm. I'm comfortable with modern development
-              workflows, iterative debugging, and data wrangling using <strong className="text-blue-400">Pandas</strong>,
-              alongside foundational knowledge in probability, linear algebra, and AI/ML concepts.
+              Recently, I developed a full-stack vehicle rental management platform from the ground up, building a
+              <strong className="text-blue-400"> Spring Boot REST API</strong> backend and a <strong className="text-blue-400">React</strong> frontend
+              using JavaScript/JSX and Tailwind CSS. The system includes customer and vehicle inventory CRUD operations,
+              a rule-based product eligibility engine (age, income, driving record, rental history), a tiered loyalty
+              rewards system, and an employee discount module.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              On the backend, I architected a layered system (Controller → Service → DAO) with dual database support
+              for both MongoDB and MySQL. I implemented DTOs, enums, and an inheritance-based entity model, wrote raw
+              SQL and MongoDB queries, and structured clean separation of concerns across the application. The project
+              was containerized with <strong className="text-blue-400">Docker</strong> and configured with CORS support
+              for seamless frontend-backend integration.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              My technical stack includes:
+            </p>
+            <ul className="space-y-2 ml-6 mb-4">
+              <li className="text-gray-300">• <strong className="text-blue-400">Java, Spring Boot, REST APIs</strong></li>
+              <li className="text-gray-300">• <strong className="text-blue-400">React, Redux, JavaScript, JSX, TailwindCSS</strong></li>
+              <li className="text-gray-300">• <strong className="text-blue-400">PostgreSQL, MySQL, MongoDB</strong></li>
+              <li className="text-gray-300">• <strong className="text-blue-400">SQL, JDBC, database schema design</strong></li>
+              <li className="text-gray-300">• <strong className="text-blue-400">Docker, Git/GitHub, npm, Maven</strong></li>
+              <li className="text-gray-300">• <strong className="text-blue-400">Python and Pandas</strong> for data analysis</li>
+              <li className="text-gray-300">• <strong className="text-blue-400">AI fundamentals, generative AI systems, and AI agent concepts</strong></li>
+            </ul>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              In addition to hands-on development experience, I've completed six technical certifications, including a
+              <strong className="text-white"> 150-hour Full-Stack Engineering program</strong>,
+              <strong className="text-white"> Building Spring Boot APIs with Java</strong>,
+              <strong className="text-white"> Data & Programming Foundations for AI</strong>,
+              <strong className="text-white"> Python 3</strong>,
+              <strong className="text-white"> Building AI Agents</strong>,
+              <strong className="text-white"> Generative AI for Everyone</strong>, and I am currently completing an additional
+              <strong className="text-white"> 95-hour Data Scientist: Machine Learning Specialist certification</strong> focused
+              on statistics and machine learning fundamentals.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              I bring a strong systems mindset, comfort working across the full stack, and the ability to translate
+              business requirements into clean, maintainable architecture. My background as a licensed real estate
+              professional sharpened my communication skills and product thinking, and I'm comfortable operating
+              independently while staying highly coachable.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              My AI experience includes working with <strong className="text-blue-400">generative AI systems</strong> and
-              <strong className="text-blue-400"> AI agent design</strong>, with particular interest in LLMs and automation.
+              I'm seeking full-time opportunities as a <strong className="text-white">Junior Full-Stack Engineer</strong> where
+              I can contribute to backend-heavy web applications, scalable APIs, and user-focused products.
             </p>
           </div>
         </section>
