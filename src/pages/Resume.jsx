@@ -14,7 +14,7 @@ function Resume() {
             <a href="https://github.com/gemerethmax" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">GitHub</a>
           </div>
           <a
-            href="/Max.Gemereth_Resume.pdf"
+            href="/Max.Gemereth Resume.pdf"
             download
             className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg transition duration-200"
           >
