@@ -18,7 +18,7 @@ function Home() {
           web applications with Spring Boot, React, distributed messaging systems, and modern database platforms like
           MySQL and MongoDB.
           <br />
-          <span className="block text-center mt-2 text-white font-semibold">325+ hours of technical training and growing.</span>
+          <span className="block text-center mt-2 text-white font-semibold">325+ hours of technical certifications and growing.</span>
         </p>
 
         <p className="text-md text-gray-400 mb-12">
