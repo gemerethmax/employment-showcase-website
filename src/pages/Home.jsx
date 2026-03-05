@@ -10,12 +10,12 @@ function Home() {
         </h1>
 
         <h2 className="text-2xl md:text-3xl text-gray-300 mb-6 font-light">
-          Full-Stack Engineer Intern | Spring Boot Microservices | React
+          Full-Stack Engineer Intern | Spring Boot Microservices | React | Apache Kafka
         </h2>
 
         <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
           Full-Stack Engineering Intern at AVPS Technologies, building production-style
-          web applications with Spring Boot, React, and modern database systems like
+          web applications with Spring Boot, React, distributed messaging systems, and modern database platforms like
           MySQL and MongoDB.
           <br />
           <span className="block text-center mt-2 text-white font-semibold">325+ hours of technical training and growing.</span>

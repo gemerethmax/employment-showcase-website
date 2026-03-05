@@ -10,7 +10,7 @@ function About() {
         <section className="mb-12">
           <p className="text-xl text-gray-300 leading-relaxed mb-6">
             I'm a Full-Stack Engineering Intern building production-grade web applications
-            with Spring Boot, React, and modern database systems—focused on clean architecture
+            with Spring Boot, React, distributed messaging systems, and modern database platforms—focused on clean architecture
             and scalable, maintainable code.
           </p>
         </section>
@@ -21,7 +21,7 @@ function About() {
           <div className="bg-slate-800 rounded-lg p-6 border border-slate-700">
             <p className="text-gray-300 leading-relaxed mb-4">
               I'm a <strong className="text-white">Full-Stack Engineering Intern at AVPS Technologies</strong>, where I design and build
-              production-style web applications using Spring Boot, React, and modern database systems.
+              production-style web applications using Spring Boot, React, distributed messaging systems, and modern database platforms.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Recently, I developed a full-stack vehicle rental management platform from the ground up, building a
@@ -33,15 +33,20 @@ function About() {
             <p className="text-gray-300 leading-relaxed mb-4">
               On the backend, I architected a layered system (Controller → Service → DAO) with dual database support
               for both MongoDB and MySQL. I implemented DTOs, enums, and an inheritance-based entity model, wrote raw
-              SQL and MongoDB queries, and structured clean separation of concerns across the application. The project
-              was containerized with <strong className="text-blue-400">Docker</strong> and configured with CORS support
-              for seamless frontend-backend integration.
+              SQL and MongoDB queries, and structured a clean separation of concerns across the system.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              To support event-driven workflows and asynchronous processing, I integrated
+              <strong className="text-blue-400"> Apache Kafka</strong> messaging, enabling automated background processes
+              and system events to be published and consumed across services. The platform was containerized with
+              <strong className="text-blue-400"> Docker</strong> and configured with CORS support for seamless
+              frontend-backend integration.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
               My technical stack includes:
             </p>
             <ul className="space-y-2 ml-6 mb-4">
-              <li className="text-gray-300">• <strong className="text-blue-400">Java, Spring Boot, REST APIs</strong></li>
+              <li className="text-gray-300">• <strong className="text-blue-400">Java, Spring Boot, REST APIs, Apache Kafka</strong></li>
               <li className="text-gray-300">• <strong className="text-blue-400">React, Redux, JavaScript, JSX, TailwindCSS</strong></li>
               <li className="text-gray-300">• <strong className="text-blue-400">PostgreSQL, MySQL, MongoDB</strong></li>
               <li className="text-gray-300">• <strong className="text-blue-400">SQL, JDBC, database schema design</strong></li>
@@ -68,7 +73,7 @@ function About() {
             </p>
             <p className="text-gray-300 leading-relaxed">
               I'm seeking full-time opportunities as a <strong className="text-white">Junior Full-Stack Engineer</strong> where
-              I can contribute to backend-heavy web applications, scalable APIs, and user-focused products.
+              I can contribute to backend-heavy web applications, scalable APIs, event-driven systems, and user-focused products.
             </p>
           </div>
         </section>

@@ -27,7 +27,7 @@ function Resume() {
           <h2 className="text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">Professional Summary</h2>
           <p className="text-gray-300 leading-relaxed">
             Full-Stack Engineering Intern at AVPS Technologies with hands-on experience designing and building production-style
-            web applications using Spring Boot, React, and modern database systems including MySQL and MongoDB. Recently developed
+            web applications using Spring Boot, React, Kafka, and modern database systems including MySQL and MongoDB. Recently developed
             a full-stack vehicle rental management platform featuring a layered Spring Boot REST API, React frontend, dual database
             support, and Docker containerization. Backed by 325+ hours of technical certifications spanning full-stack engineering,
             Java/Spring, Python, and AI. Seeking a full-time Junior Full-Stack Engineer role contributing to backend-heavy web
@@ -50,7 +50,7 @@ function Resume() {
             <div>
               <h3 className="text-lg font-semibold text-blue-400 mb-2">Backend & APIs</h3>
               <ul className="text-gray-300 space-y-1">
-                <li>• Spring Boot, Node.js, Express.js</li>
+                <li>• Spring Boot, Node.js, Express.js, Kafka</li>
                 <li>• RESTful API Development, JDBC</li>
                 <li>• OAuth Authentication, Web Security, CORS</li>
               </ul>
@@ -164,6 +164,7 @@ function Resume() {
               <li>• Implemented customer and vehicle inventory CRUD operations, a rule-based product eligibility engine, tiered loyalty rewards, and an employee discount module</li>
               <li>• Built DTOs, enums, and an inheritance-based entity model with clean separation of concerns</li>
               <li>• Wrote raw SQL and MongoDB queries and configured JDBC database connectivity</li>
+              <li>• Integrated Apache Kafka for asynchronous event processing across backend services</li>
               <li>• Containerized the application with Docker and configured CORS for frontend-backend integration</li>
               <li>• Developed the React frontend using JavaScript/JSX and Tailwind CSS</li>
             </ul>
