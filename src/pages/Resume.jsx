@@ -25,14 +25,13 @@ function Resume() {
         {/* Professional Summary */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">Professional Summary</h2>
-          <p className="text-gray-300 leading-relaxed">
-            Full-Stack Engineer at AVPS Technologies with hands-on experience designing and building production-style
-            web applications using Spring Boot, React, Kafka, and modern database systems including MySQL and MongoDB. Recently developed
-            a full-stack vehicle rental management platform featuring a layered Spring Boot REST API, React frontend, dual database
-            support, and Docker containerization. Backed by 325+ hours of technical certifications spanning full-stack engineering,
-            Java/Spring, Python, and AI. Seeking a full-time Junior Full-Stack Engineer role contributing to backend-heavy web
-            applications, scalable APIs, and user-focused products.
+          <p className="text-gray-300 leading-relaxed mb-2">
+            Full Stack Java Developer at AVPS Technologies with hands-on experience building production-style web applications using Java, Spring Boot, Kafka, React, and modern database systems.
           </p>
+          <ul className="text-gray-300 space-y-2 list-none">
+            <li>• Skilled in designing and developing RESTful APIs, event-driven microservices, and responsive user interfaces using JavaScript/JSX and Tailwind CSS. Experienced with PostgreSQL, MySQL, MongoDB, Docker, and modern software development workflows.</li>
+            <li>• Completed 325+ hours of technical certifications across full-stack engineering, AI, Python, and data science, with additional specialization in machine learning fundamentals.</li>
+          </ul>
         </section>
 
         {/* Technical Skills */}
@@ -159,14 +158,15 @@ function Resume() {
               <p className="text-gray-500">October 2025 - June 2026</p>
             </div>
             <ul className="ml-4 text-gray-300 space-y-2">
-              <li>• Designed and built a full-stack vehicle rental management platform with a Spring Boot REST API backend and React frontend</li>
-              <li>• Architected a layered backend system (Controller → Service → DAO) with dual database support for MongoDB and MySQL</li>
-              <li>• Implemented customer and vehicle inventory CRUD operations, a rule-based product eligibility engine, tiered loyalty rewards, and an employee discount module</li>
-              <li>• Built DTOs, enums, and an inheritance-based entity model with clean separation of concerns</li>
-              <li>• Wrote raw SQL and MongoDB queries and configured JDBC database connectivity</li>
-              <li>• Integrated Apache Kafka for asynchronous event processing across backend services</li>
-              <li>• Containerized the application with Docker and configured CORS for frontend-backend integration</li>
-              <li>• Developed the React frontend using JavaScript/JSX and Tailwind CSS</li>
+              <li>• Designed and developed backend microservices using Spring Boot to support scalable business operations and system integrations.</li>
+              <li>• Created asynchronous messaging workflows with Apache Kafka to enable reliable event-driven communication between services.</li>
+              <li>• Developed and enhanced RESTful APIs for frontend applications and external service integrations.</li>
+              <li>• Built interactive frontend modules using ReactJS and integrated them with backend APIs for seamless user experiences.</li>
+              <li>• Utilized Docker for containerization and supported application deployments across development and testing environments.</li>
+              <li>• Contributed to CI/CD implementation and deployment automation using Jenkins and Git-based version control practices.</li>
+              <li>• Worked in Agile development environments, actively participating in sprint planning, stand-ups, backlog discussions, and retrospectives.</li>
+              <li>• Collaborated with QA, DevOps, and business teams to resolve production issues, improve system stability, and optimize application performance.</li>
+              <li>• Wrote unit and integration test cases using JUnit to improve code quality and maintain application reliability.</li>
             </ul>
           </div>
 
