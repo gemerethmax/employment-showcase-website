@@ -14,7 +14,7 @@ function Home() {
         </h2>
 
         <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Full-Stack Engineerat AVPS Technologies, building production-style
+          Full-Stack Engineer at AVPS Technologies, building production-style
           web applications with Spring Boot, React, distributed messaging systems, and modern database platforms like
           MySQL and MongoDB.
           <br />
