@@ -5,7 +5,7 @@ function Resume() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-white mb-2">Max Gemereth</h1>
-          <p className="text-xl text-gray-400 mb-4">Full-Stack Engineer Intern | Spring Boot Microservices | React</p>
+          <p className="text-xl text-gray-400 mb-4">Full-Stack Engineer | Spring Boot Microservices | React</p>
           <div className="flex justify-center gap-4 text-sm text-gray-400">
             <a href="mailto:gemereth.max@gmail.com" className="hover:text-blue-400">gemereth.max@gmail.com</a>
             <span>•</span>
@@ -26,7 +26,7 @@ function Resume() {
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-white mb-4 border-b border-slate-700 pb-2">Professional Summary</h2>
           <p className="text-gray-300 leading-relaxed">
-            Full-Stack Engineering Intern at AVPS Technologies with hands-on experience designing and building production-style
+            Full-Stack Engineer at AVPS Technologies with hands-on experience designing and building production-style
             web applications using Spring Boot, React, Kafka, and modern database systems including MySQL and MongoDB. Recently developed
             a full-stack vehicle rental management platform featuring a layered Spring Boot REST API, React frontend, dual database
             support, and Docker containerization. Backed by 325+ hours of technical certifications spanning full-stack engineering,
@@ -153,10 +153,10 @@ function Resume() {
           <div className="mb-8">
             <div className="flex justify-between items-start mb-2">
               <div>
-                <h3 className="text-lg font-semibold text-white">Full-Stack Engineering Intern</h3>
+                <h3 className="text-lg font-semibold text-white">Full-Stack Engineer</h3>
                 <p className="text-blue-400">AVPS Technologies</p>
               </div>
-              <p className="text-gray-500">2026 – Present</p>
+              <p className="text-gray-500">October 2025 - June 2026</p>
             </div>
             <ul className="ml-4 text-gray-300 space-y-2">
               <li>• Designed and built a full-stack vehicle rental management platform with a Spring Boot REST API backend and React frontend</li>

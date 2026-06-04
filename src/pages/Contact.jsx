@@ -24,10 +24,10 @@ function Contact() {
                   <div>
                     <h3 className="font-semibold text-white mb-1">Email</h3>
                     <a
-                      href="mailto:gemereth.max@gmail.com"
+                      href="mailto:matthewgemereth@gmail.com"
                       className="text-blue-400 hover:text-blue-300 transition duration-200"
                     >
-                      gemereth.max@gmail.com
+                      matthewgemereth@gmail.com
                     </a>
                   </div>
                 </div>
