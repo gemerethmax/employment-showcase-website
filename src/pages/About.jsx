@@ -9,7 +9,7 @@ function About() {
         {/* Introduction */}
         <section className="mb-12">
           <p className="text-xl text-gray-300 leading-relaxed mb-6">
-            I'm a Full-Stack Engineering building production-grade web applications
+            I'm a Full-Stack Engineer building production-grade web applications
             with Spring Boot, React, distributed messaging systems, and modern database platforms—focused on clean architecture
             and scalable, maintainable code.
           </p>
@@ -20,7 +20,7 @@ function About() {
           <h2 className="text-3xl font-bold text-white mb-6">Technical Background</h2>
           <div className="bg-slate-800 rounded-lg p-6 border border-slate-700">
             <p className="text-gray-300 leading-relaxed mb-4">
-              I'm a <strong className="text-white">Full-Stack Engineering at AVPS Technologies</strong>, where I design and build
+              I'm a <strong className="text-white">Full-Stack Engineer at AVPS Technologies</strong>, where I design and build
               production-style web applications using Spring Boot, React, distributed messaging systems, and modern database platforms.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
